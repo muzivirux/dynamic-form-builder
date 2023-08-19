@@ -1,0 +1,32 @@
+.form-builder {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.form-builder-fields {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.form-preview {
+  flex: 1;
+  padding: 0 20px;
+  border-left: 1px solid #ccc;
+  margin-left: 20px;
+}
+
+.form-field {
+  margin-bottom: 10px;
+}
+
+.form-field-preview {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.error {
+  color: red;
+}
